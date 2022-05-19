@@ -1,0 +1,11 @@
+$MainFont: Arial, Helvetica, sans-serif;
+
+$TextBackground: rgba(255, 255, 255, 0.5);
+
+@mixin heading() {
+    font-family: $MainFont;
+    color: black;
+    background-color: $TextBackground;
+    text-align: center;
+    text-shadow: 2px 2px rgb(255, 0, 0);
+}

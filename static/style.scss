@@ -1,0 +1,92 @@
+@import "rules";
+
+body {
+    background-color: rgb(9, 136, 58);
+}
+h1, h2 {
+    @include heading();
+    font-size: 3em;
+}
+h3 {
+    @include heading();
+}
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+.dark_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+h1, h2 {
+    text-align: center;
+    width: 21%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2 {
+    width: 30%;
+}
+h3 {
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 1%;
+}
+p, .text {
+    font-family: $MainFont;
+    background-color: $TextBackground;
+}
+.text, .Galnet_headtext {
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+}
+.Galnet_headtext {
+    width: 45%;
+}
+.carousel-inner, #carouselExampleIndicators {
+    display: block;
+    height:470px;
+    width: 800px;
+	text-align: center;
+    padding: 1em;
+}
+.container {
+	display: flex;
+	min-height: 20vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+.pics {
+    display: block;
+    text-align: center;
+    height:30%;
+    width: 30%;
+}
+// .nav div a div ul li a:hover {
+//     background-color: aqua;
+// }
+.ships_pics, .community_pics {
+    text-align: center;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+}
+.ships_carousel, .community_carousel, .factions_carousel {
+    display: flex;
+}
+.com_pics, .fac_pics {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    // justify-content: center;
+    height:20%;
+    width: 20%;
+}

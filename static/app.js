@@ -28,16 +28,17 @@ function darkCheck() {
     let state = localStorage.getItem("state")
 
     if (state =="dark") {
+        element.classList.toggle("dark-mode");  
+    
 
         for (const box of mainbox) {
-            box.classList.toggle("dark-mode");  
+            box.classList.toggle("dark-mode-b");  
         }
     
         for (const text of mainText) {
-            text.classList.toggle("dark-mode");
+            text.classList.toggle("dark-mode-b");
         }
     }
-    
 }
 
 // text = "Once more unto something, something..." 

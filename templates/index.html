@@ -1,24 +1,25 @@
+<title>Home Page</title>
 {% extends 'base.html' %}
 {% block content %} 
 
-<body>
-    <h1>Elite Dangerous</h1><br>
 
-    <p class="text">Elite Dangerous is a space flight simulation game developed and published by Frontier Developments. The player takes the role of a pilot of a spaceship, and explores a realistic 1:1 scale open-world representation of the Milky Way galaxy, with the gameplay being open-ended</p>
-    
-    <p class="text">Elite Dangerous brings gaming’s original open world adventure to the modern generation with a stunning recreation of the entire Milky Way galaxy. Here battles rage, governments fall, and humanity’s frontier expands and you can impact it all. Welcome to the definitive massively multiplayer space epic.</p>
-    
-    <p class="text">This is a Really fun space game and I love playing it.</p>
+<h1>Elite Dangerous</h1><br>
 
-    <div class="container">
-        <img src="{{url_for('static', filename = 'Pics/home_pic1.jpg')}}" title="Elite Dangerous game picture" alt="Elite Dangerous title Picture" class="pics">
-        <img src="{{url_for('static', filename = 'Pics/home_pic2.jpg')}}" title="Elite Dangerous game picture" alt="Elite Dangerous title Picture" class="pics">
-        <img src="{{url_for('static', filename = 'Pics/home_pic3.jpg')}}" title="Inside a ship cockpit view" alt="Elite Dangerous Picture. Inside a ship cockpit view" class="pics">
-        <img src="{{url_for('static', filename = 'Pics/home_pic4.jpg')}}" title="Nice scenic shot of 3 SRV's with a ship behind" alt="Nice scenic picture of 3 SRV's in a row with a ship behind on a beautiful white planet with a blue planet in the background" class="pics">
-        <img src="{{url_for('static', filename = 'Pics/home_pic5.jpg')}}" title="View from inside a asteroid starport" alt="View from inside a asteroid starport" class="pics">
-        <img src="{{url_for('static', filename = 'Pics/home_pic6.jpg')}}" title="On foot looking at a ship landing" alt="On foot holding a gun looking at a ship landing" class="pics">
-    </div>
-    <br>
-    <a href="#top" class="text">Back to top</a>
+<p class="text">Elite Dangerous is a space flight simulation game developed and published by Frontier Developments. The player takes the role of a pilot of a spaceship, and explores a realistic 1:1 scale open-world representation of the Milky Way galaxy, with the gameplay being open-ended</p>
+
+<p class="text">Elite Dangerous brings gaming’s original open world adventure to the modern generation with a stunning recreation of the entire Milky Way galaxy. Here battles rage, governments fall, and humanity’s frontier expands and you can impact it all. Welcome to the definitive massively multiplayer space epic.</p>
+
+<p class="text">This is a Really fun space game and I love playing it.</p>
+
+<div class="container">
+    <img src="{{url_for('static', filename = 'Pics/home_pic1.jpg')}}" title="Elite Dangerous game picture" alt="Elite Dangerous title Picture" class="pics">
+    <img src="{{url_for('static', filename = 'Pics/home_pic2.jpg')}}" title="Elite Dangerous game picture" alt="Elite Dangerous title Picture" class="pics">
+    <img src="{{url_for('static', filename = 'Pics/home_pic3.jpg')}}" title="Inside a ship cockpit view" alt="Elite Dangerous Picture. Inside a ship cockpit view" class="pics">
+    <img src="{{url_for('static', filename = 'Pics/home_pic4.jpg')}}" title="Nice scenic shot of 3 SRV's with a ship behind" alt="Nice scenic picture of 3 SRV's in a row with a ship behind on a beautiful white planet with a blue planet in the background" class="pics">
+    <img src="{{url_for('static', filename = 'Pics/home_pic5.jpg')}}" title="View from inside a asteroid starport" alt="View from inside a asteroid starport" class="pics">
+    <img src="{{url_for('static', filename = 'Pics/home_pic6.jpg')}}" title="On foot looking at a ship landing" alt="On foot holding a gun looking at a ship landing" class="pics">
+</div>
+<br>
+<a href="#top" class="text">Back to top</a>
 
 {% endblock %}

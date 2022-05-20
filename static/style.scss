@@ -163,28 +163,21 @@ p, .text {
         width: 40%;
     }
 }
-// .desktop, .mobile {
-//     display: none;
-// }
-// @media (orientation: portrait) {
-//     .title {
-//         color: yellow;
-//         background-color: black;
-//         text-align: center;
-//         padding: 5%;
-//     }
-//     .mobile {
-//         display: inline-block;
-//     }
-// } 
-// @media (orientation: landscape) {
-//     .subtitle {
-//         color: green;
-//         background-color: orange;
-//         text-align: center;
-//         padding: 5%;
-//     }
-//     .desktop {
-//         display: inline-block;
-//     }
-// } 
+@media (orientation: landscape) {
+    .button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height:10%;
+        width: 10%;
+    }
+}
+@media (orientation: portrait) {
+    .button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height:25%;
+        width: 25%;
+    }
+}

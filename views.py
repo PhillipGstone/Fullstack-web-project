@@ -23,10 +23,6 @@ def game_news():
 def factions():
     return render_template("factions.html")  
 
-# @my_view.route("/admin")  
-# def admin():
-#     return render_template("admin.html") 
-
 @my_view.route("/home")
 def home_redirect():
     return redirect(url_for("my_view.home")) 
